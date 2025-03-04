@@ -15,7 +15,7 @@ const options: swaggerJsdoc.Options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000',
+        url: ['http://localhost:5000', 'https://flash-sale-system-ghj5.onrender.com'],
         description: 'Development server'
       }
     ],
