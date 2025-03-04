@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# flash-sale-system
-=======
 # Flash Sale System
 
 A high-performance backend API system built with TypeScript, designed to handle flash sale events with real-time inventory updates, user purchases, and leaderboard functionality.
@@ -162,4 +159,3 @@ The server will be running at `http://localhost:5000`.
 - `GET /api/purchases/my-purchases` - Get user's purchase history (protected)
 
 
->>>>>>> 0dd26b4 (first commit)
