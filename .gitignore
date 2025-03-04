@@ -1,0 +1,46 @@
+# Build output
+/dist
+/build
+
+# Dependencies
+/node_modules
+package-lock.json
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+
+# MongoDB data directories
+/data
+/data/rs0-0
+/data/rs0-1
+/data/rs0-2
+
+# Logs
+logs
+*.log
+npm-debug.log*
+error.log
+combined.log
+
+# Coverage directory used by testing tools
+/coverage
+
+# Artillery report
+artillery_report_*.json
+artillery_report_*.html
+
+# IDE specific files
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+
+.npm
+.eslintcache
+.nyc_output
