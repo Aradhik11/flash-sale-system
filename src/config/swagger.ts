@@ -10,7 +10,7 @@ const options: swaggerJsdoc.Options = {
       description: 'A high-performance backend API for handling flash sale events with real-time inventory updates',
       contact: {
         name: 'API Support',
-        email: 'your-email@example.com'
+        email: 'aradhik11@gmail.com'
       }
     },
     servers: [
