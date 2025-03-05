@@ -14,10 +14,10 @@ const options: swaggerJsdoc.Options = {
       }
     },
     servers: [
-      // {
-      //   url: 'https://flash-sale-system-ghj5.onrender.com',
-      //   description: 'Production server'
-      // },
+      {
+        url: 'https://flash-sale-system-lssc.onrender.com',
+        description: 'Production server'
+      },
       {
         url: 'http://localhost:5000',
         description: 'Development server'
@@ -174,8 +174,8 @@ const options: swaggerJsdoc.Options = {
     ]
   },
   apis: [
-    path.resolve(__dirname, '../routes/*.ts'),
-    path.resolve(__dirname, '../models/*.ts')
+    path.resolve(__dirname, '../routes/*.js'),
+    path.resolve(__dirname, '../models/*.js')
   ]
 };
 
