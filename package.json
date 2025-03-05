@@ -4,7 +4,7 @@
   "description": "High-performance Flash Sale System with real-time inventory updates",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "ts-node src/app.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "build": "tsc",
     "test": "jest --detectOpenHandles",
