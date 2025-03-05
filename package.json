@@ -8,11 +8,6 @@
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "build": "tsc",
     "test": "jest --detectOpenHandles",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "test:unit": "jest --testPathPattern=unit",
-    "test:integration": "jest --testPathPattern=integration",
-    "test:api": "jest --testPathPattern=api",
     "load-test": "artillery run load-tests/flash-sale-load.yml",
     "seed:admin": "ts-node src/admin-seed.ts"
   },
