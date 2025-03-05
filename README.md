@@ -132,7 +132,7 @@ For development with hot reloading:
    npm run dev
    ```
 
-The server will be running at `http://localhost:5000`.
+The server will be running at `http://localhost:5000` with an API documentation https://flash-sale-system-lssc.onrender.com/api-docs.
 
 ## API Endpoints
 
